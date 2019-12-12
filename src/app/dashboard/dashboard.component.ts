@@ -17,6 +17,5 @@ export class DashboardComponent implements OnInit {
 
   ngOnInit() {
     this.dataSource = new MatTableDataSource(this.data);
-    console.log(this.dataSource);
   }
 }
